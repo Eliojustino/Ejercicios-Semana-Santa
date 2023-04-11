@@ -29,15 +29,18 @@ public class DatosBasicos2 {
 		System.out.println(" ");
 		
 		// Programa 9 
-		int x = 0;
-		int y = 0;
-		int z = 0; 
-		System.out.print("Ingresé tres número distintos (A, B y C): ");
-		j = leer.nextInt();
-		k = leer.nextInt();
-		l = leer.nextInt();
-		z = (int) (k*k)-(4(j*l));
-		y = (float) Math.sqrt(z);
-		x = (int) (-k+y)/(2j);
+		System.out.println("Ingrese el coeficiente a: ");
+		double x = leer.nextDouble();
+		System.out.println("Ingrese el coeficiente b: ");
+		double y = leer.nextDouble();
+		System.out.println("Ingrese el coeficiente c: ");
+		double z = leer.nextDouble();
+		
+		double discriminante = Math.sqrt(y*y-4*x*z);
+		double x1 = (-b+discriminante)/(2*x);
+		double x2 = (-b-discriminante)/(2*x);
+		
+		System.out.println("x1 = " + x1);
+		System.out.println("x2 = " + x2);
 	}
 }
