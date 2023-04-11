@@ -1,3 +1,9 @@
+ /*****************************************
+ * Autor: Cruz Ortega Elio justino		  *
+ * Fecha Creación: 08/04/23               *
+ * Fecha Actualización:	10/04/23          *
+ * Descripción: Ejercicios de semana santa*
+ ******************************************/
 package EjerciciosJava;
 
 import java.util.Scanner;
